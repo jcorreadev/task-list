@@ -32,8 +32,8 @@ FastDB.io is ideal for frontend developers who want to build and test their appl
   <a href="https://www.fastdb.io/" target="_blank">
     <img
       src="./src/assets/canvas-schema.png"
-      width="600"
-      alt="FastDB"
+      width="100%"
+      alt="Schema diagram showcasing FastDB.io's UI capabilities"
     />
   </a>
 </p>
@@ -41,8 +41,8 @@ FastDB.io is ideal for frontend developers who want to build and test their appl
   <a href="https://www.fastdb.io/" target="_blank">
     <img
       src="./src/assets/table-editor.png"
-      width="600"
-      alt="FastDB"
+      width="100%"
+      alt="Table editor screenshot demonstrating FastDB.io mock database features"
     />
   </a>
 </p>
