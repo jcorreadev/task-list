@@ -79,7 +79,7 @@ FastDB.io is ideal for frontend developers who want to build and test their appl
    
    Create a `.env` file in the root directory:
    ```env
-   VITE_API_BASE_URL=http://localhost:3000/api
+   VITE_API_BASE_URL=https://example.fastdb.io/api/project_id
    ```
    
    Replace with your FastDB.io mock API endpoint URL.
