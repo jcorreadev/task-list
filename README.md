@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A modern, feature-rich Todo application built with React, TypeScript, and Tailwind CSS. This project serves as an example frontend implementation for [FastDB.io](https://fastdb.io), demonstrating how to integrate with FastDB's backend-as-a-service platform.
+A modern, feature-rich Todo application built with React, TypeScript, and Tailwind CSS. This project serves as an example frontend implementation for [FastDB.io](https://fastdb.io), demonstrating how to integrate a React frontend with FastDB.io's REST API mock endpoints.
 
 ## 📋 About This Project
 
@@ -11,23 +11,22 @@ This Todo application was originally created by [PlayCode.io](https://playcode.i
 - **User Management**: Create, edit, and manage multiple users
 - **Task Management**: Create, update, delete, and toggle task completion
 - **User-specific Tasks**: Each user has their own set of tasks
-- **Real-time Updates**: Seamless data synchronization with FastDB backend
+- **API Integration**: Seamless integration with FastDB.io mock REST APIs
 - **Modern UI**: Beautiful, responsive interface built with Tailwind CSS
 - **TypeScript**: Full type safety throughout the application
 - **State Management**: Zustand for efficient state management
 
 ## 🚀 What is FastDB.io?
 
-[**FastDB.io**](https://fastdb.io) is a powerful backend-as-a-service (BaaS) platform that provides:
+[**FastDB.io**](https://fastdb.io) is a powerful tool for creating REST API mocks quickly and easily. It allows developers to:
 
-- **RESTful API**: Auto-generated REST endpoints for your data models
-- **Real-time Database**: Fast, scalable database solution
-- **Authentication**: Built-in user authentication and authorization
-- **File Storage**: Easy file upload and management
-- **API Builder**: Visual API builder for custom endpoints
-- **Schema Management**: Define your data models with ease
+- **Mock REST APIs**: Generate REST endpoints instantly for prototyping and development
+- **Rapid Development**: Test frontend applications without waiting for backend implementation
+- **Easy Setup**: Define your data models and get working APIs in minutes
+- **Real API Responses**: Simulate real backend behavior with CRUD operations
+- **Development Tool**: Perfect for frontend developers who need backend endpoints during development
 
-FastDB.io allows developers to focus on building great frontend experiences while handling all the backend complexity. This Todo app demonstrates how easy it is to integrate a frontend application with FastDB.io's backend services.
+FastDB.io is ideal for frontend developers who want to build and test their applications independently, creating realistic API mocks that work just like a real backend. This Todo app demonstrates how easy it is to integrate a React frontend with FastDB.io's mock API endpoints.
 
 **Visit FastDB.io**: [https://fastdb.io](https://fastdb.io)
 
@@ -47,8 +46,8 @@ FastDB.io allows developers to focus on building great frontend experiences whil
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/fastdb-todo-frontend.git
-   cd fastdb-todo-frontend
+   git clone https://github.com/jcorreadev/task-list.git
+   cd task-list
    ```
 
 2. **Install dependencies**
@@ -63,7 +62,7 @@ FastDB.io allows developers to focus on building great frontend experiences whil
    VITE_API_BASE_URL=http://localhost:3000/api
    ```
    
-   Replace with your FastDB.io API endpoint when deploying.
+   Replace with your FastDB.io mock API endpoint URL.
 
 4. **Start the development server**
    ```bash
@@ -188,13 +187,12 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgments
 
 - **PlayCode.io** - Original frontend implementation
-- **FastDB.io** - Backend platform and inspiration for this example
+- **FastDB.io** - API mock tool and inspiration for this example
 - **React Community** - Amazing ecosystem and tools
 
 ## 🔗 Links
 
 - **FastDB.io Website**: [https://fastdb.io](https://fastdb.io)
-- **PlayCode.io**: [https://playcode.io](https://playcode.io)
 
 ## 📧 Support
 
