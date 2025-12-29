@@ -28,6 +28,26 @@ This Todo application was originally created by [PlayCode.io](https://playcode.i
 
 FastDB.io is ideal for frontend developers who want to build and test their applications independently, creating realistic API mocks that work just like a real backend. This Todo app demonstrates how easy it is to integrate a React frontend with FastDB.io's mock API endpoints.
 
+<p align="center">
+  <a href="https://www.fastdb.io/" target="_blank">
+    <img
+      src="./src/assets/canvas-schema.png"
+      width="600"
+      alt="FastDB"
+    />
+  </a>
+</p>
+<p align="center">
+  <a href="https://www.fastdb.io/" target="_blank">
+    <img
+      src="./src/assets/table-editor.png"
+      width="600"
+      alt="FastDB"
+    />
+  </a>
+</p>
+
+
 **Visit FastDB.io**: [https://fastdb.io](https://fastdb.io)
 
 ## 🛠️ Tech Stack
