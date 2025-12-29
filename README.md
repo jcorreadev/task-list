@@ -6,6 +6,17 @@ A modern, feature-rich Todo application built with React, TypeScript, and Tailwi
 
 ## 📋 About This Project
 
+<p align="center">
+  <a href="https://www.fastdb.io/" target="_blank">
+    <img
+      src="./src/assets/task-list-app.png"
+      width="100%"
+      alt="FastDB.io Todo App user interface—table editor with real-time task and user management using REST API mock endpoints"
+      title="FastDB.io Todo App user interface—table editor with real-time task and user management using REST API mock endpoints"
+    />
+  </a>
+</p>
+
 This Todo application was originally created by [PlayCode.io](https://playcode.io) and has been adapted as an example project for FastDB.io. It showcases a complete full-stack application pattern with:
 
 - **User Management**: Create, edit, and manage multiple users
@@ -34,6 +45,7 @@ FastDB.io is ideal for frontend developers who want to build and test their appl
       src="./src/assets/canvas-schema.png"
       width="100%"
       alt="Schema diagram showcasing FastDB.io's UI capabilities"
+      title="Schema diagram showcasing FastDB.io's UI capabilities"
     />
   </a>
 </p>
@@ -43,6 +55,7 @@ FastDB.io is ideal for frontend developers who want to build and test their appl
       src="./src/assets/table-editor.png"
       width="100%"
       alt="Table editor screenshot demonstrating FastDB.io mock database features"
+      title="Table editor screenshot demonstrating FastDB.io mock database features"
     />
   </a>
 </p>
